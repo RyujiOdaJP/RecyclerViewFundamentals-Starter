@@ -54,6 +54,11 @@ class SleepTrackerFragment : Fragment() {
         val binding: FragmentSleepTrackerBinding = DataBindingUtil.inflate(
                 inflater, R.layout.fragment_sleep_tracker, container, false)
 
+        // set adapter for recyclerView in fragment_sleep_tracker find by recyclerView's id,
+        // in this case sleepList is id
+        val adapter = SleepNightAdapter()
+        binding.sleepList.adapter = adapter
+
         val application = requireNotNull(this.activity).application
 
         // Create an instance of the ViewModel Factory.
