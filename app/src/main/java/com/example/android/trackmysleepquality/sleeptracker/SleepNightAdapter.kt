@@ -10,7 +10,11 @@ import com.example.android.trackmysleepquality.database.SleepNight
 import kotlinx.android.synthetic.main.fragment_sleep_quality.view.*
 
 class SleepNightAdapter : RecyclerView.Adapter<TextItemViewHolder>() {
-    val data = listOf<SleepNight>()
+    var data = listOf<SleepNight>()
+        set(value) {
+            field = value
+            notifyDataSetChanged()
+        }
 
     /**
      * Make the view instance and bind it to adapter

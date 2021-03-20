@@ -5,8 +5,24 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e607b615-4f43-4db2-b4b1-713257a54a38" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepNightAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepNightAdapter.kt" afterDir="false" />
     </list>
@@ -165,5 +181,21 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="665" y="294" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097/0.-1257.1920.1257@0.23.1792.1097" timestamp="1616110809017" />
+    <state width="1748" height="242" key="GridCell.Tab.0.bottom" timestamp="1616155974635">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1748" height="242" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1616155974635" />
+    <state width="1748" height="242" key="GridCell.Tab.0.center" timestamp="1616155974635">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1748" height="242" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1616155974635" />
+    <state width="1748" height="242" key="GridCell.Tab.0.left" timestamp="1616155974633">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1748" height="242" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1616155974633" />
+    <state width="1748" height="242" key="GridCell.Tab.0.right" timestamp="1616155974635">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1748" height="242" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1616155974635" />
   </component>
 </project>
