@@ -2,13 +2,16 @@ package com.example.android.trackmysleepquality.sleeptracker
 
 import android.graphics.Color
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.android.trackmysleepquality.R
 import com.example.android.trackmysleepquality.TextItemViewHolder
 import com.example.android.trackmysleepquality.database.SleepNight
 import kotlinx.android.synthetic.main.fragment_sleep_quality.view.*
+import kotlinx.android.synthetic.main.list_item_sleep_night.view.*
 
 class SleepNightAdapter : RecyclerView.Adapter<TextItemViewHolder>() {
     var data = listOf<SleepNight>()
@@ -48,5 +51,11 @@ class SleepNightAdapter : RecyclerView.Adapter<TextItemViewHolder>() {
      * */
     override fun getItemCount(): Int {
         return data.size
+    }
+
+    inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        val sleepLength: TextView = itemView.sleep_length
+        val quality: TextView = itemView.quality_string
+        val qualityImage: ImageView = itemView.quality_image
     }
 }
